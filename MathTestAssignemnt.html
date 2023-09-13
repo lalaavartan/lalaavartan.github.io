@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Math Test</title>
+</head>
+<body>
+    <!-- Start of Math Test -->
+    <h1>Math Test</h1>
+    <form action="submit_test.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <!-- Question 1 -->
+        <p>1. What is 5 + 3?</p>
+        <label>
+            <input type="radio" name="q1" value="8" required> 8
+        </label>
+        <label>
+            <input type="radio" name="q1" value="7"> 7
+        </label>
+        <label>
+            <input type="radio" name="q1" value="6"> 6
+        </label><br><br>
+
+        <!-- Question 2 -->
+        <p>2. What is 12 - 4?</p>
+        <label>
+            <input type="radio" name="q2" value="8" required> 8
+        </label>
+        <label>
+            <input type="radio" name="q2" value="7"> 7
+        </label>
+        <label>
+            <input type="radio" name="q2" value="6"> 6
+        </label><br><br>
+
+        <!-- Question 3 -->
+        <p>3. What is 2 x 5?</p>
+        <label>
+            <input type="radio" name="q3" value="8"> 8
+        </label>
+        <label>
+            <input type="radio" name="q3" value="7"> 7
+        </label>
+        <label>
+            <input type="radio" name="q3" value="10" required> 10
+        </label><br><br>
+
+        <!-- Word Problem -->
+        <p>4. Word Problem:</p>
+        <p>There were 25 tennis rackets and 36 hockey sticks. How many more hockey sticks are there than tennis rackets?</p>
+        <textarea id="word_problem" name="word_problem_answer" rows="4" cols="50" required></textarea><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+    <!-- End of Math Test -->
+</body>
+</html>
