@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-auto-flow: row dense;
+            height: 150px;
+            padding: 10px;
+        }
+
+        .grid-container div {
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding:0;
+            font-size: 1.2em;
+            text-align: center;
+            background-color: #a98dd5;
+            color: black;
+        }
+
+        .grid-item.item2 {
+            grid-column-start: auto;
+            grid-column-end: span 2;
+            /* Adjusted item 2 to span 2 columns */
+        }
+        .grid-item.item1, .grid-item.item3 {
+            grid-column-start: auto;
+            grid-column-end: span 2;
+        }
+    </style>
+</head>
+<body>
+    <section class="grid-container">
+        <div class="grid-item item1">
+            Lala Vartan
+        </div>
+        <div class="grid-item item2">
+            Snowman
+        </div>
+        <div class="grid-item">
+            10/24/23
+        </div>
+<div style="visibility:hidden; height:100px;">
+Hidden Div 2
+        class="grid-item">
+            <img src="images/puzzle2_C.jpg">
+        </div>
+        <div class="grid-item">
+            
+        </div>
+        <div class="grid-item">
+            <img src="images/puzzle2_K.jpg">
+        </div>
+        <div class="grid-item">
+            <img src="images/puzzle2_M.jpg">
+        </div>
+        <div class="grid-item">
+            <img src="images/puzzle2_E.jpg">
+        </div>
+        <div class="grid-item">
+           <img src="images/puzzle2_G.jpg">
+        </div>
+        <div class="grid-item">
+            
+        </div>
+        <div class="grid-item">
+            
+        </div>
+        <div class="grid-item">
+            <img src="images/puzzle2_A.jpg">
+        </div>
+        <div class="grid-item">
+            <img src="images/puzzle2_D.jpg">
+        </div>
+        <div class="grid-item">
+          <img src="images/puzzle2_L.jpg">
+        </div>
+        <div class="grid-item">
+           <img src="images/puzzle2_B.jpg">
+        </div>
+        <div class="grid-item">
+         
+        </div>
+        <div class="grid-item">
+            
+        </div>
+        <div class="grid-item">
+            <img src="images/puzzle2_F.jpg">
+        </div>
+        <div class="grid-item">
+           <img src="images/puzzle2_J.jpg">
+        </div>
+        <div class="grid-item">
+            <img src="images/puzzle2_H.jpg">
+        </div>
+        <div class="grid-item">
+            <img src="images/puzzle2_I.jpg">
+        </div>
+        <div class="grid-item">
+        
+        </div>
+    </section>
+</body>
+</html>
+
