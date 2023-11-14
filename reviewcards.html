@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    header {
+      font-size: 24px;
+      font-weight: bold;
+      color: #4CAF50;
+      margin-bottom: 20px;
+    }
+
+    .flashcard {
+      width: 400px;
+      height: 300px;
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      margin: 10px;
+    }
+
+    .flashcard:hover .answer {
+      transform: translateY(0);
+    }
+
+    .answer {
+      transform: translateY(100%);
+      transition: transform 0.3s ease-in-out;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <header>English and History Review Cards</header>
+
+  <div class="flashcard">
+    <div class="question">Who wrote "To Kill a Mockingbird"?</div>
+    <div class="answer">Harper Lee wrote "To Kill a Mockingbird."</div>
+  </div>
+
+  <div class="flashcard">
+    <div class="question">What was the main cause of World War I?</div>
+    <div class="answer">The assassination of Archduke Franz Ferdinand triggered World War I.</div>
+  </div>
+
+  <div class="flashcard">
+    <div class="question">Identify a key theme in Shakespeare's Macbeth.</div>
+    <div class="answer">Ambition is a central theme in Macbeth.</div>
+  </div>
+
+  <div class="flashcard">
+    <div class="question">Who was the 16th President of the United States?</div>
+    <div class="answer">Abraham Lincoln was the 16th President of the United States.</div>
+  </div>
+
+  <div class="flashcard">
+    <div class="question">Define the term "Renaissance."</div>
+    <div class="answer">The Renaissance was a period of cultural and artistic rebirth in Europe.</div>
+  </div>
+
+  <div class="flashcard">
+    <div class="question">What is the significance of the Magna Carta?</div>
+    <div class="answer">The Magna Carta established the principle of limited government and influenced constitutional development.</div>
+  </div>
+
+  <div class="flashcard">
+    <div class="question">Name the author of "The Great Gatsby."</div>
+    <div class="answer">F. Scott Fitzgerald wrote "The Great Gatsby."</div>
+  </div>
+
+  <div class="flashcard">
+    <div class="question">What was the outcome of the Battle of Gettysburg?</div>
+    <div class="answer">The Union emerged victorious in the Battle of Gettysburg during the American Civil War.</div>
+  </div>
+</body>
+</html>
