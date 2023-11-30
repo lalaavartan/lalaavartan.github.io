@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffe6e6; /* Light pink background */
+  color: #cc0066; /* Dark pink text */
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+section img {
+  width: 300px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensures proper spacing and alignment */
+  margin: 0 auto 20px; /* Center the image and provide some bottom margin */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #000; /* Border style */
+  padding: 8px; /* Padding for cells */
+  text-align: left; /* Align text to the left */
+}
+
+th {
+  background-color: #f2f2f2; /* Background color for headers */
+}
+
+main {
+  padding: 20px; /* Adding padding around the main content */
+}
+
